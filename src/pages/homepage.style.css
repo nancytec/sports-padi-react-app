@@ -23,7 +23,7 @@ body {
     top: 0;
     width: 100%;
     height: 100vh;
-    animation: animate 16s ease-in-out infinite;
+    background: url('/src/asset/img/slide1.png');
     background-size: cover;
 }
 .navcontainer img {
@@ -41,7 +41,7 @@ body {
     top: 0;
     width: 100%;
     height: 100vh;
-    animation: animate2 16s ease-in-out infinite;
+    background: url('/src/asset/img/slide.png');
     background-size: cover;
 }
 .playersection2 h1 {
@@ -63,22 +63,28 @@ body {
 #playersection h1 {
     color: #000;
     font-family: Flutter;
-    font-size: 3rem;
+    font-size: 4.1rem;
 }
 
 #playersection p {
     margin-left: 4rem;
-    font-family: Flutterwave;
+    font-family: Flutterwave, sans-serif;
+    font-weight: 900;
+    color: #000;
+    font-size: 20px;
 }
 .playersection2 h1 {
     color: #000;
     font-family: Flutter;
-    font-size: 3rem;
+    font-size: 4.1rem;
 }
 
 .playersection2 p {
     margin-left: 4rem;
-    font-family: Flutterwave;
+    font-family: Flutterwave, sans-serif;
+    font-weight: 900;
+    color: #000;
+    font-size: 20px;
 }
 
 .breadcruma {
@@ -112,7 +118,7 @@ body {
     margin-left: 2rem;
 }
 
-@keyframes animate2 {
+/* @keyframes animate2 {
     0%,
     100% {
         background-image: url("../asset/img/pexels-binyamin-mellish-386150.jpg");
@@ -138,7 +144,7 @@ body {
     75% {
         background-image: url("../asset/img/pexels-chris-k-6578121.jpg");
     }
-}
+} */
 @media only screen and (max-width: 855px) {
     .breadcruma {
         margin: 0 0;
