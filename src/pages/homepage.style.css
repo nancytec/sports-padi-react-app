@@ -1,0 +1,250 @@
+@font-face {
+    font-family: Flutterwave;
+    /*src: url("/public/font/FLW-Bold.8acb0e3.ttf");*/
+}
+@font-face {
+    font-family: Flutter;
+    /*src: url("/public/font/FLW-Regular.5da28fe.ttf");*/
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Flutter;
+}
+.playersection {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    animation: animate 16s ease-in-out infinite;
+    background-size: cover;
+}
+.navcontainer img {
+    margin-left: 3rem;
+    height: 50px;
+}
+.playersection h1 {
+    font-size: 5rem;
+    font-family: Flutter;
+    margin-top: 14rem;
+    margin-left: 4rem;
+}
+.playersection2 {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    animation: animate2 16s ease-in-out infinite;
+    background-size: cover;
+}
+.playersection2 h1 {
+    font-size: 5rem;
+    font-family: Flutter;
+    margin-top: 14rem;
+    margin-left: 4rem;
+}
+
+.navbar {
+    background-color: #fff;
+}
+.breadcrum-item {
+    font-family: Flutterwave;
+}
+.container-fluid a:hover {
+    background-color: #b6e3c0;
+}
+#playersection h1 {
+    color: #000;
+    font-family: Flutter;
+    font-size: 3rem;
+}
+
+#playersection p {
+    margin-left: 4rem;
+    font-family: Flutterwave;
+}
+.playersection2 h1 {
+    color: #000;
+    font-family: Flutter;
+    font-size: 3rem;
+}
+
+.playersection2 p {
+    margin-left: 4rem;
+    font-family: Flutterwave;
+}
+
+.breadcruma {
+    font-size: large;
+    text-decoration: none;
+    margin: 0 4rem;
+    color: #00a01e;
+    font-family: Flutterwave;
+    padding: 1rem 2rem;
+    border-radius: 30px;
+}
+#agentlink {
+    font-size: large;
+    text-decoration: none;
+    margin: 0 4rem;
+    color: #00a01e;
+    font-family: Flutterwave;
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    border: 1px solid #00a01e;
+}
+/* style="width: 70%; margin-top: 15rem; margin-left: 2rem;"  */
+.playersection form {
+    width: 70%;
+    margin-top: 15rem;
+    margin-left: 2rem;
+}
+.playersection2 form {
+    width: 70%;
+    margin-top: 15rem;
+    margin-left: 2rem;
+}
+
+@keyframes animate2 {
+    0%,
+    100% {
+        background-image: url("../asset/img/pexels-binyamin-mellish-386150.jpg");
+    }
+    25% {
+        background-image: url("../asset/img/pexels-pavel-danilyuk-5520322.jpg");
+    }
+    50% {
+        background-image: url("../asset/img/pexels-pixabay-48148.jpg");
+    }
+}
+@keyframes animate {
+    0%,
+    100% {
+        background-image: url("../asset/img/pexels-cottonbro-5274531.jpg");
+    }
+    25% {
+        background-image: url("../asset/img/pexels-kindel-media-6573247.jpg");
+    }
+    50% {
+        background-image: url("../asset/img/pexels-philipp-brugger-5894435.jpg");
+    }
+    75% {
+        background-image: url("../asset/img/pexels-chris-k-6578121.jpg");
+    }
+}
+@media only screen and (max-width: 855px) {
+    .breadcruma {
+        margin: 0 0;
+        padding: 1rem 1rem;
+    }
+    #agentlink {
+        margin: 0 2rem;
+        color: #00a01e;
+        padding: 1rem 1rem;
+    }
+}
+@media only screen and (max-width: 680px) {
+    .breadcruma {
+        font-size: 15px;
+        margin-left: 5rem;
+    }
+    #agentlink {
+        font-size: 15px;
+    }
+    .navcontainer img {
+        margin-left: 5rem;
+        height: 50px;
+    }
+
+    .playersection {
+        width: 100%;
+        height: auto;
+    }
+    .playersection form {
+        margin-top: 0;
+        margin-left: 4rem;
+        margin-bottom: 3rem;
+    }
+    .playersection2 {
+        width: 100%;
+        height: auto;
+    }
+    #playersection h1 {
+        text-align: center;
+        font-size: 3rem;
+        margin-left: 2rem;
+
+    }
+    #playersection p {
+        margin-left: 2rem;
+        font-family: Flutterwave;
+        text-align: center;
+    }
+    .playersection2 h1 {
+        text-align: center;
+        font-size: 3rem;
+        margin-left: 2rem;
+        margin-top: 10rem;
+    }
+    .playersection2 p {
+        margin-left: 2rem;
+        font-family: Flutterwave;
+        text-align: center;
+    }
+    .playersection2 form {
+        margin-top: 0;
+        margin-left: 4rem;
+        margin-bottom: 3rem;
+    }
+}
+@media only screen and (max-width: 360px) {
+    .breadcruma {
+        font-size: 15px;
+        margin-left: 2.5rem;
+    }
+    #agentlink {
+        font-size: 10px;
+    }
+    .navcontainer img {
+        margin-left: 2.5rem;
+        height: 50px;
+    }
+}
+@media only screen and (max-width: 280px) {
+    .navcontainer img {
+        margin-left: 1rem;
+        height: 50px;
+    }
+    #breadcrumb {
+        display: none;
+    }
+    .playersection2 form {
+        margin-left: 3rem;
+    }
+    .playersection2 h1 {
+        margin-left: 1rem;
+    }
+    .playersection2 p {
+        margin-left: 1rem;
+        font-family: Flutterwave;
+        text-align: center;
+    }
+    .playersection form {
+        margin-left: 3rem;
+    }
+    .playersection h1 {
+        margin-left: 1rem;
+    }
+    .playersection p {
+        margin-left: 1rem;
+        font-family: Flutterwave;
+        text-align: center;
+    }
+}
